@@ -308,10 +308,3 @@ impl Dimensions {
         self.border_box().expanded_by(self.margin)
     }
 }
-
-// fn sum<I>(iter: I) -> f32
-// where
-//     I: Iterator<Item = f32>,
-// {
-//     iter.fold(0., |a, b| a + b)
-// }
