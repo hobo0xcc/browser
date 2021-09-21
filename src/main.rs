@@ -11,6 +11,7 @@ use alloc::string::ToString;
 #[cfg(feature = "no-std")]
 use browser::syscall::*;
 use browser::*;
+#[cfg(feature = "std")]
 use alloc::alloc::*;
 use browser::{css, html, layout, style};
 use core::slice;
