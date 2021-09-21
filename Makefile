@@ -3,3 +3,6 @@ riscv64:
 
 x86_64:
 	cargo build --release
+
+run:
+	cargo run --release
