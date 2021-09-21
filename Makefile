@@ -6,3 +6,6 @@ x86_64:
 
 run:
 	cargo run --release
+
+clean:
+	cargo clean
