@@ -1,0 +1,11 @@
+# [unstable]
+# build-std = ["core", "compiler_builtins", "alloc"]
+# build-std-features = ["compiler-builtins-mem"]
+
+# [build]
+# target = "riscv64gc-unknown-none-elf"
+
+[target.'cfg(target_arch="riscv64")']
+rustflags = [
+  "-Clink-args=-Tlinker.ld",
+]
